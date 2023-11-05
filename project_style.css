@@ -1,0 +1,159 @@
+.background{
+    background-image:url("background\ 3.jpeg");
+   
+}
+
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color:black;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+}
+.navbar a{
+    color:gold;
+    text-decoration:none;
+    padding:10px;
+    display:block;
+    text-align:centre;
+}
+.navbar img{
+    padding:0px;
+    margin:0px;
+    
+}
+.navbar a:hover{
+    background-color:goldenrod;
+}
+.navbar li{
+    float:right;
+}
+.heading{
+    text-align:center;
+    color:gold;
+    background-color:black;
+}
+.article{
+    text-transform: uppercase;
+    text-shadow:0lvb;
+    color:black;
+    background-color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+.article-content{
+    text-align:left;
+    text-shadow:1px 1px 2px black;
+    
+}
+
+
+
+
+
+.fotter{
+    color:white;
+    background-color:rgb(19, 18, 18);
+}
+
+.left{
+    text-decoration:  none;
+    word-spacing: 120%;
+    color:gold;
+}
+.right{
+    text-decoration:  none;
+    color:gold;
+}
+
+.btn{
+    position:center;
+   text-align:center;
+   font-size:1rem;
+   font-weight:700;
+   padding:0.5em 1em;
+   color:black;
+   background-color:var(--clr-rgba);
+   border:5px solid black;
+   border-radius:5px;
+
+   transition:transform 0.3s,background-color 0.3s,color 0.3s;
+}
+.btn:hover{
+    
+    transform:translate(-10px);
+    background-color:black ;
+    color: gold;
+}
+.split-left{
+    width:50%;
+    float:left;
+    position:relative;
+}
+.split-right{
+    width:50%;
+    float:right;
+    position:relative;
+}
+.news-left{
+    width:50%;
+    float:left;
+    margin:0 auto;
+}
+.news-right{
+    width:50%;
+    float:right;
+}
+.see-all{
+    text-align:right;
+    width:50%;
+    float:center;
+    justify-content: center;
+    
+}
+.head{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#441c05;
+    font-size:xx-large
+}
+.text{
+    text-shadow:1px 1px 3px black;
+}
+.left:hover{
+    color:crimson;
+    background-color:gold;
+}
+.right:hover{
+    color:crimson;
+    background-color:gold;
+}
+@keyframes slideInLeft{
+    from{
+        transform:translate(-300px);
+    }
+    to{
+        transform:translate(0);
+    }
+}
+
+
+@keyframes Flicker-In{
+    from{
+        transform:translate(-300px);
+    }
+    to{
+        transform:translate(0);
+    }
+}
+.head {
+    animation-name:Flicker-In;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-delay:5s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+
+    transform:translate(0px);
+}
